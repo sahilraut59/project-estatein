@@ -8,7 +8,7 @@ const Property = (props) => {
       <div className="">
       <h1>{title}</h1>
       <p className="flex-wrap text-sm text-gray-400">{description}</p>
-      <div className="flex gap-2 text-sm">
+      <div className="flex gap-2 text-sm mb-5 mt-5">
         <div className="flex border rounded-2xl p-1 border-gray-600">
           <Image src="/icons/bedroom.svg" width={20} height={20} />
           <span>{bedroom} -Bedroom</span>
@@ -22,13 +22,13 @@ const Property = (props) => {
           <span>{type}</span>
         </div>
       </div>
-      <div className="flex">
+      <div className="flex items-center justify-between">
         <div>
           <p>Price</p>
           <span>${price}</span>
         </div>
         <div>
-          <div className="rounded-lg bg-">
+          <div className="rounded-lg bg-[#703BF7] p-2">
             View Property Details
           </div>
         </div>
