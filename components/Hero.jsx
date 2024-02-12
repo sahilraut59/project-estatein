@@ -40,7 +40,7 @@ const Hero = () => {
           </div>
         </div>
         {/* lower */}
-        <div className="flex text-white justify-evenly p-4">
+        <div className="flex text-white justify-center gap-5 p-4 size-m">
             <div className="flex flex-col justify-center items-center bg-[#262626] rounded-lg p-8 border border-gray-700  gap-2">
                 <Image src="/icons/Hug.svg" height={32} width={32} />
                 <p>Find Your Dream Home</p>

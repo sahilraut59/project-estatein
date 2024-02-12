@@ -1,11 +1,13 @@
-
+import DiscoverProperty from "@/components/ui/DiscoverProperty";
+import PropertySearch from "@/components/ui/PropertySearch";
 
 const page = () => {
   return (
-    <div>
-      Property Page
-    </div>
-  )
+    <>
+    <PropertySearch />
+    <DiscoverProperty />
+    </>
+  );
 }
 
 export default page
